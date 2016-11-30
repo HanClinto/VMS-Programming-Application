@@ -11,8 +11,19 @@
  * @param   int   $n    Upper limit of range of numbers to print.
  * @return  void
  */
-function fizzbuzz($n) {
-
+function fizzbuzz($n) {  
+  for ($x = 1; $x <= $n; $x++) {
+    if ((x % 3 == 0) && (x % 5 == 0))
+      echo "FizzBuzz";
+    elseif (x % 3 == 0)
+      echo "Fizz";
+    elseif (x % 5 == 0)
+      echo "Buzz";
+    else
+      echo $n;
+    
+    echo "<br/>";
+  }
 }
 
 ?>
